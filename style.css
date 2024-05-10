@@ -1,6 +1,11 @@
-.container {
+/* Обнуляем отступы и отключаем ползунок прокрутки */
+html, body {
     margin: 0;
     padding: 0;
+    overflow: hidden; /* Отключаем ползунок прокрутки */
+}
+
+.container {
     font-size: 18px;
     color: var(--tg-theme-text-color);
     background: var(--tg-theme-bg-color);
