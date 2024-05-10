@@ -37,7 +37,9 @@ body {
     background: url('1.png') center center no-repeat;
     width: 125px;
     height: 125px;
+    transition: width 0.2s, height 0.2s; /* Добавляем плавный переход для изменения размера */
 }
+
 
 .usercard {
     text-align: center;
