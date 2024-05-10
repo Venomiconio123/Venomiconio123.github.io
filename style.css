@@ -21,6 +21,7 @@ body {
 .btn-wrapper {
     display: flex;
     justify-content: center;
+    position: relative; /* Добавляем относительное позиционирование */
 }
 
 .btn {
@@ -40,7 +41,9 @@ body {
 
 .score-container {
     text-align: center;
-    margin-top: 20px; /* Отступ над счетчиком */
+    position: absolute; /* Добавляем абсолютное позиционирование */
+    top: -40px; /* Подберите нужное значение отступа над кнопкой */
+    width: 100%; /* Ширина равна ширине родительского контейнера */
 }
 
 .score {
