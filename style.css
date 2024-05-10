@@ -28,15 +28,15 @@ body {
     border: none;
     background: url('1.png') center center no-repeat; /* Путь к вашему изображению */
     background-size: cover; /* Растягиваем изображение, чтобы оно полностью покрывало кнопку */
-    width: 150px; /* Ширина изображения */
-    height: 150px; /* Высота изображения */
+    width: 200px; /* Ширина изображения */
+    height: 200px; /* Высота изображения */
 }
 
 
 .btn:hover {
     background: url('1.png') center center no-repeat; /* Добавляем фоновое изображение при ховере */
-    width: 125px;
-    height: 125px;
+    width: 175px;
+    height: 175px;
     transition: width 0.2s, height 0.2s; /* Добавляем плавный переход для изменения размера */
 }
 
