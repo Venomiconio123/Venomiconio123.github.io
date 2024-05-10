@@ -34,6 +34,7 @@ body {
 
 
 .btn:hover {
+    background: url('1.png') center center no-repeat; /* Добавляем фоновое изображение при ховере */
     width: 125px;
     height: 125px;
     transition: width 0.2s, height 0.2s; /* Добавляем плавный переход для изменения размера */
