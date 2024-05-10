@@ -24,15 +24,14 @@ body {
 
 .btn {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 0;
     border: none;
-    background: rgb(248, 168, 24);
-    border-radius: 10px;
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    transition: background .2s linear;
+    background: url('1.png') center center no-repeat; /* Путь к вашему изображению */
+    background-size: cover; /* Растягиваем изображение, чтобы оно полностью покрывало кнопку */
+    width: 150px; /* Ширина изображения */
+    height: 150px; /* Высота изображения */
 }
+
 
 .btn:hover {
     background: lightgreen;
