@@ -10,18 +10,6 @@ body {
     height: 100vh; /* Занимаем весь видимый экран по высоте */
 }
 
-.container {
-    max-width: 390px;
-}
-
-.item {
-    text-align: center;
-}
-
-.img {
-    width: 150px;
-}
-
 .btn {
     display: inline-block;
     padding: 0;
@@ -32,32 +20,8 @@ body {
     height: 200px; /* Высота изображения */
 }
 
-
 .btn:active {
-    background: url('1.png') center center no-repeat; /* Добавляем фоновое изображение при ховере */
-    width: 175px;
-    height: 175px;
+    width: 175px; /* Уменьшаем ширину кнопки */
+    height: 175px; /* Уменьшаем высоту кнопки */
     transition: width 0.2s, height 0.2s; /* Добавляем плавный переход для изменения размера */
 }
-
-
-.usercard {
-    text-align: center;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
