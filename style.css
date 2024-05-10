@@ -40,7 +40,7 @@ body {
 
 .score-container {
     text-align: center;
-    margin-top: 200px; /* Отступ над счетчиком */
+    margin-top: 120px; /* Отступ над счетчиком */
 }
 
 .score {
