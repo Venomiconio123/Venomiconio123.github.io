@@ -15,9 +15,6 @@
 }
 
 .btn {
-    display: inline-block;
-    padding: 0;
-    border: none;
     background: url('1.png') center center no-repeat; /* Путь к вашему изображению */
     background-size: cover; /* Растягиваем изображение, чтобы оно полностью покрывало кнопку */
     width: 200px; /* Ширина изображения */
@@ -25,10 +22,5 @@
 }
 
 .score {
-    position: absolute; /* Устанавливаем счетчик в режим позиционирования */
-    top: -40px; /* Отступ от верхней границы кнопки */
-    left: 50%; /* Располагаем по горизонтали по центру */
-    transform: translateX(-50%); /* Корректируем положение по горизонтали */
-    text-align: center; /* Выравнивание по центру */
     margin-bottom: 20px; /* Отступ снизу */
 }
