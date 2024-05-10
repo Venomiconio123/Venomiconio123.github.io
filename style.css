@@ -10,7 +10,7 @@ body {
     height: 100vh; /* Занимаем весь видимый экран по высоте */
 }
 
-.btn {
+.item .btn {
     display: inline-block;
     padding: 0;
     border: none;
@@ -20,7 +20,7 @@ body {
     height: 200px; /* Высота изображения */
 }
 
-.btn:active {
+.item .btn:active {
     width: 175px; /* Уменьшаем ширину кнопки */
     height: 175px; /* Уменьшаем высоту кнопки */
 }
