@@ -33,7 +33,7 @@ body {
 }
 
 
-.btn:hover {
+.btn:active {
     background: url('1.png') center center no-repeat; /* Добавляем фоновое изображение при ховере */
     width: 175px;
     height: 175px;
