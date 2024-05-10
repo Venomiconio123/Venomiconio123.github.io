@@ -10,23 +10,15 @@
     <div class="container">
         <div class="inner">
             <div class="item">
-                <button class="btn" id="btn"></button> <!-- Удалите одну кнопку -->
+                <button class="btn" id="btn"></button>
             </div>
         </div>
     </div>
     <div class="usercard" id="usercard">
-        <!-- Здесь можете добавить содержимое карточки пользователя, если это нужно -->
+        Score: <span id="score">0</span> <!-- Добавляем элемент для отображения счетчика -->
     </div>
 
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script src="app.js"></script>
-    <script>
-        var score = 0;
-
-        document.querySelector(".btn").addEventListener("click", function() {
-            score++;
-            document.getElementById("usercard").innerText = "Score: " + score;
-        });
-    </script>
 </body>
 </html>
