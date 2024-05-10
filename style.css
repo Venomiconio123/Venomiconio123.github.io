@@ -40,10 +40,10 @@ body {
 
 .score-container {
     text-align: center;
-    margin-top: 120px; /* Отступ над счетчиком */
+    margin-top: 20px; /* Отступ над счетчиком */
 }
 
 .score {
     display: inline-block;
-    margin: 0; /* Убираем внешние отступы */
+    margin: 100; /* Убираем внешние отступы */
 }
