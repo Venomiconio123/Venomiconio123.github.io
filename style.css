@@ -26,3 +26,9 @@ body {
     transition: width 0.2s, height 0.2s; /* Добавляем плавный переход для изменения размера */
 }
 
+.score {
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 10px; /* Отступ снизу */
+}
+
+
