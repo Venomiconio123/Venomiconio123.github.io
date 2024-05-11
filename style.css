@@ -54,7 +54,7 @@ body {
 /* Стили для вкладок */
 .tabs {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     position: fixed;
     bottom: 0;
     width: 100%;
