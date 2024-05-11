@@ -64,12 +64,14 @@ body {
 }
 
 .tab {
-    text-decoration: none;
-    color: #333;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
+    padding: 5px 10px; /* Уменьшаем внутренний отступ кнопки */
+    border-radius: 3px; /* Добавляем скругление углов для кнопок */
+    margin: 0 5px; /* Добавляем небольшие отступы между кнопками */
+    width: 80px; /* Устанавливаем ширину кнопки */
+    height: 40px; /* Устанавливаем высоту кнопки */
+    font-size: 14px; /* Уменьшаем размер шрифта */
 }
+
 
 .tab:hover {
     background-color: #ddd;
