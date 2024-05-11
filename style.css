@@ -49,6 +49,7 @@ body {
 .score {
     display: inline-block;
     margin: 0; /* Убираем внешние отступы */
+    font-size: 24px;
 }
 
 /* Стили для вкладок */
