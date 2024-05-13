@@ -93,3 +93,8 @@ body {
 .tab[data-target="popup4"] {
     background-image: url('button4.png');
 }
+
+.tab:active {
+    width: 75px;
+    height: 55px;
+}
