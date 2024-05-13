@@ -67,7 +67,7 @@ body {
     padding: 0;
     border: none;
     width: 80px;
-    height: 80px;
+    height: 60px;
     background-color: transparent;
     cursor: pointer;
     background-size: cover; /* Масштабируем фоновое изображение для кнопки */
