@@ -37,7 +37,6 @@ body {
 .btn:active {
     width: 175px;
     height: 175px;
-    transition: width 0.2s, height 0.2s;
 }
 
 .score-container {
