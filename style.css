@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     position: fixed;
-    bottom: 10px;
+    bottom: 0px;
     width: 100%;
     padding: 10px 0;
 }
