@@ -57,7 +57,7 @@ body {
     display: flex;
     justify-content: center;
     position: fixed;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     background-color: #000000;
     padding: 10px 0;
@@ -67,7 +67,7 @@ body {
     padding: 0;
     border: none;
     width: 80px;
-    height: 40px;
+    height: 80px;
     background-color: transparent;
     cursor: pointer;
     background-size: cover; /* Масштабируем фоновое изображение для кнопки */
