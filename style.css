@@ -64,14 +64,18 @@ body {
 }
 
 .tab {
-    padding: 5px 10px;
-    border-radius: 3px;
-    margin: 0 5px;
+    padding: 0;
+    border: none;
     width: 80px;
     height: 40px;
-    font-size: 14px;
-    background-size: contain;
-    background-position: center;
-    background-size: cover;
+    background-color: transparent; /* Убираем фон кнопки */
+    cursor: pointer;
 }
+
+.tab img {
+    width: 100%; /* Изображение будет занимать всю доступную ширину кнопки */
+    height: 100%; /* Изображение будет занимать всю доступную высоту кнопки */
+    object-fit: cover; /* Масштабирование изображения, чтобы оно полностью заполняло кнопку */
+}
+
 
