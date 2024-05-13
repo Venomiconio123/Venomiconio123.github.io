@@ -68,14 +68,28 @@ body {
     border: none;
     width: 80px;
     height: 40px;
-    background-color: transparent; /* Убираем фон кнопки */
+    background-color: transparent;
     cursor: pointer;
+    background-size: cover; /* Масштабируем фоновое изображение для кнопки */
 }
 
 .tab img {
-    width: 100%; /* Изображение будет занимать всю доступную ширину кнопки */
-    height: 100%; /* Изображение будет занимать всю доступную высоту кнопки */
-    object-fit: cover; /* Масштабирование изображения, чтобы оно полностью заполняло кнопку */
+    display: none; /* Скрываем внутренние изображения, так как используем фон */
 }
 
+/* Для каждой кнопки укажите своё изображение */
+.tab[data-target="popup1"] {
+    background-image: url('button1.png');
+}
 
+.tab[data-target="popup2"] {
+    background-image: url('button2.png');
+}
+
+.tab[data-target="popup3"] {
+    background-image: url('button3.png');
+}
+
+.tab[data-target="popup4"] {
+    background-image: url('button4.png');
+}
