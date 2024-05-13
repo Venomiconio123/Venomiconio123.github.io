@@ -30,7 +30,7 @@ body {
     border: none;
     background: url('1.png') center center no-repeat;
     background-size: cover;
-    width: 200px;
+    width: 100px;
     height: 200px;
 }
 
@@ -72,10 +72,6 @@ body {
     font-size: 14px;
     background-size: contain;
     background-position: center;
-}
-
-.tab:hover {
-    background-color: #ddd;
 }
 
 .tab:nth-of-type(1) {
