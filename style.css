@@ -51,7 +51,9 @@ body {
     display: inline-block;
     margin: 0;
     font-size: 24px;
+    color: white; /* Установите желаемый цвет текста */
 }
+
 
 .tabs {
     display: flex;
