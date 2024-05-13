@@ -2,12 +2,13 @@ body {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    color: var(--tg-theme-text-color);
-    background: var(--tg-theme-bg-color);
+    color: var(--tg-theme-text-col);
+    background: url('2.png') center center no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center; /* Центрирование по вертикали */
-    height: 100vh; /* Занимаем весь видимый экран по высоте */
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
@@ -21,38 +22,37 @@ body {
 .btn-wrapper {
     display: flex;
     justify-content: center;
-    position: relative; /* Добавляем относительное позиционирование */
+    position: relative;
 }
 
 .btn {
     padding: 0;
     border: none;
-    background: url('1.png') center center no-repeat; /* Путь к вашему изображению */
-    background-size: cover; /* Растягиваем изображение, чтобы оно полностью покрывало кнопку */
-    width: 200px; /* Ширина изображения */
-    height: 200px; /* Высота изображения */
+    background: url('1.png') center center no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px;
 }
 
 .btn:active {
-    width: 175px; /* Уменьшаем ширину кнопки */
-    height: 175px; /* Уменьшаем высоту кнопки */
-    transition: width 0.2s, height 0.2s; /* Добавляем плавный переход для изменения размера */
+    width: 175px;
+    height: 175px;
+    transition: width 0.2s, height 0.2s;
 }
 
 .score-container {
     text-align: center;
-    position: absolute; /* Добавляем абсолютное позиционирование */
-    top: 70px; /* Подберите нужное значение отступа над кнопкой */
-    width: 100%; /* Ширина равна ширине родительского контейнера */
+    position: absolute;
+    top: 70px;
+    width: 100%;
 }
 
 .score {
     display: inline-block;
-    margin: 0; /* Убираем внешние отступы */
+    margin: 0;
     font-size: 24px;
 }
 
-/* Стили для вкладок */
 .tabs {
     display: flex;
     justify-content: center;
@@ -64,18 +64,15 @@ body {
 }
 
 .tab {
-    /* Ваши текущие стили */
     padding: 5px 10px;
     border-radius: 3px;
     margin: 0 5px;
     width: 80px;
     height: 40px;
     font-size: 14px;
-    background-size: contain; /* Растягиваем изображение, чтобы оно полностью помещалось в кнопку */
-    background-position: center; /* Выравниваем изображение по центру кнопки */
+    background-size: contain;
+    background-position: center;
 }
-
-
 
 .tab:hover {
     background-color: #ddd;
