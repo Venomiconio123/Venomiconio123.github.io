@@ -16,7 +16,7 @@ var span = document.getElementsByClassName("close")[0];
 // Функция для открытия модального окна с изображением
 function openModal(imageUrl) {
   modal.style.display = "block";
-  modalImg.src = imageUrl;
+  modalImg.src = 2.png;
 }
 
 // Функция для закрытия модального окна
