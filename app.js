@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click", function() {
     score++;
     document.getElementById("score").innerText = score; // Обновляем только значение числа
     // Находим кнопку по id
-var button2 = document.getElementById("popup2");
+var button2 = document.querySelector("[data-target='popup2']");
 
 // Добавляем обработчик события клика на кнопку
 button2.addEventListener("click", function() {
