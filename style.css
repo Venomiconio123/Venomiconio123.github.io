@@ -102,13 +102,6 @@ body {
     height: 58px;
 }
 
-.image-container {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 9998; /* Установите высокий z-index, чтобы изображение было поверх всего */
-}
 /* Стили для модального окна */
 .modal {
     display: none; /* Скрываем модальное окно по умолчанию */
