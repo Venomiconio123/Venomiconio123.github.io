@@ -11,7 +11,7 @@ document.getElementById("btn").addEventListener("click", function() {
     tabs.forEach(tab => {
         tab.addEventListener('click', function() {
             const target = this.getAttribute('data-target');
-            body.style.backgroundImage = `url('menu1.png')`;
+            body.style.backgroundImage = `url('2.png')`;
         });
     });
   });
