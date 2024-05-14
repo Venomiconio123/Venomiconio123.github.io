@@ -79,19 +79,19 @@ body {
 }
 
 /* Для каждой кнопки укажите своё изображение */
-.tab[data-target="popup1"] {
+.tab[data-target="menu1"] {
     background-image: url('button1.png');
 }
 
-.tab[data-target="popup2"] {
+.tab[data-target="menu2"] {
     background-image: url('button2.png');
 }
 
-.tab[data-target="popup3"] {
+.tab[data-target="menu3"] {
     background-image: url('button3.png');
 }
 
-.tab[data-target="popup4"] {
+.tab[data-target="menu4"] {
     background-image: url('button4.png');
 }
 
