@@ -10,16 +10,16 @@ document.querySelectorAll('.tab').forEach(function(tab) {
         var imageUrl = ''; // Установите соответствующий URL изображения для каждой кнопки
         switch(target) {
             case 'menu1':
-                imageUrl = 'image1.png';
+                imageUrl = '2.png';
                 break;
             case 'menu2':
-                imageUrl = 'image2.png';
+                imageUrl = '2.png';
                 break;
             case 'menu3':
-                imageUrl = 'image3.png';
+                imageUrl = '2.png';
                 break;
             case 'menu4':
-                imageUrl = 'image4.png';
+                imageUrl = '2.png';
                 break;
             default:
                 imageUrl = '';
