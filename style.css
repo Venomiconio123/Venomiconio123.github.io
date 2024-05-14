@@ -62,7 +62,6 @@ body {
     bottom: -10px;
     width: 100%;
     padding: 10px 0;
-    z-index: 9999;
 }
 
 .tab {
@@ -73,7 +72,6 @@ body {
     background-color: transparent;
     cursor: pointer;
     background-size: cover; /* Масштабируем фоновое изображение для кнопки */
-    z-index: 9999;
 }
 
 .tab img {
