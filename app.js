@@ -5,9 +5,6 @@ document.getElementById("btn").addEventListener("click", function() {
     if (score < maxClicks) {
         score++;
         document.getElementById("score").innerText = score; // Обновляем только значение числа
-    } else {
-        alert("Вы достигли максимального количества нажатий.");
-    }
 });
 
 // Переносим этот блок кода изнутри обработчика события клика на кнопке
