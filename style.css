@@ -79,7 +79,7 @@ body {
 }
 
 /* Для каждой кнопки укажите своё изображение */
-.tab[data-target="menu1"] {
+.tab[data-target="index"] {
     background-image: url('button1.png');
 }
 
