@@ -103,6 +103,7 @@ body {
 .energy-bar {
     width: 100%;
     height: 20px;
+    background-color: #ccc; /* Серый цвет фона */
     border-radius: 10px; /* Закругленные углы */
     overflow: hidden; /* Прячет излишек, если содержимое превышает размеры */
 }
