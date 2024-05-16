@@ -6,6 +6,6 @@ document.getElementById("btn").addEventListener("click", function() {
 
     document.getElementById("btn").addEventListener("click", function() {
     // Перенаправление на новую страницу
-    window.location.href = "новая_страница.html";
+    window.location.href = "menu1.html";
   });
 });
