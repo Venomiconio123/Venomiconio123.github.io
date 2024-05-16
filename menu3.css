@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: var(--tg-theme-text-col);
+    background: url('2.png') center center no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: -10px;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.tab {
+    padding: 0;
+    border: none;
+    width: 80px;
+    height: 60px;
+    background-color: transparent;
+    cursor: pointer;
+    background-size: cover; /* Масштабируем фоновое изображение для кнопки */
+}
+
+.tab img {
+    display: none; /* Скрываем внутренние изображения, так как используем фон */
+}
+
+/* Для каждой кнопки укажите своё изображение */
+.tab[data-target="index"] {
+    background-image: url('button1.png');
+}
+
+.tab[data-target="menu2"] {
+    background-image: url('button2.png');
+}
+
+.tab[data-target="menu3"] {
+    background-image: url('button3.png');
+}
+
+.tab[data-target="menu4"] {
+    background-image: url('button4.png');
+}
+
+.tab:active {
+    width: 78px;
+    height: 58px;
+}
