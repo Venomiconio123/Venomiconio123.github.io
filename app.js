@@ -1,11 +1,4 @@
 var score = 0;
-
-document.getElementById("btn").addEventListener("click", function() {
-    score++;
-    document.getElementById("score").innerText = score; // Обновляем только значение числа
-});
-
-var score = 0;
 var maxClicks = 10; // Максимальное количество нажатий
 
 document.getElementById("btn").addEventListener("click", function() {
