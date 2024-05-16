@@ -99,5 +99,19 @@ body {
     width: 78px;
     height: 58px;
 }
+/* Добавляем стили для шкалы энергии */
+.energy-bar {
+    width: 100%;
+    height: 20px;
+    background-color: #ccc; /* Серый цвет фона */
+    border-radius: 10px; /* Закругленные углы */
+    overflow: hidden; /* Прячет излишек, если содержимое превышает размеры */
+}
+
+.energy-level {
+    width: 0%; /* Изначально ширина 0% */
+    height: 100%;
+    background-color: #4CAF50; /* Зеленый цвет для заполненной части */
+}
 
 
