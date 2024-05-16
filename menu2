@@ -20,7 +20,6 @@
         <p id="score" class="score">0</p>
     </div>
     <div class="usercard" id="usercard">
-        <!-- Здесь можете добавить содержимое карточки пользователя, если это нужно -->
     </div>
     <div class="tabs">
     <button class="tab" data-target="menu1"></button>
