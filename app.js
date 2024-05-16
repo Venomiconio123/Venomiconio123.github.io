@@ -17,4 +17,8 @@ document.querySelectorAll(".tab").forEach(function(tab) {
         window.location.href = target + ".html"; // Перенаправление на страницу с соответствующим именем
     });
 });
+// Пример изменения уровня энергии в JavaScript
+var energyLevel = 10; // Уровень энергии пользователя (от 0 до 100)
+var energyBar = document.getElementById("energy-level");
+energyBar.style.width = energyLevel + "%"; // Устанавливаем ширину в процентах
 
