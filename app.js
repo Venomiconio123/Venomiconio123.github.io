@@ -10,5 +10,3 @@ document.getElementById("btn").addEventListener("click", function() {
         window.location.href = target + ".html"; // Перенаправление на страницу с соответствующим именем
     });
 });
-
-});
